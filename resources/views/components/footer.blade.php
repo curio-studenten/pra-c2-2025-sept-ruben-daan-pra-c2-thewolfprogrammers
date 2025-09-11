@@ -26,3 +26,12 @@
  } 
  
 </script>
+
+<style>
+footer {
+  width: 100%;
+  background: var(--gray-dark);
+  color: #fff;
+  font-size: .75rem;
+}  
+</style>

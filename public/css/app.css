@@ -10026,3 +10026,12 @@ a.text-dark:hover, a.text-dark:focus {
     color: #ccc;
     content: "/ ";
 }
+
+
+/* OUR WRITTEN CSS | SEPERATE FROM EVERYTHING ABOVE */
+.main-bottom-footer {
+    width: 100%;
+    background: var(--gray-dark);
+    color: #fff;
+    font-size: .75rem;
+}

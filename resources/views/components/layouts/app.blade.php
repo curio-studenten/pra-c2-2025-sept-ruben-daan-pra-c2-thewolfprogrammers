@@ -36,10 +36,12 @@
 
     </div>
 
-    <div class="row">
-        <x-footer/>
-    </div>
 
+
+</div>
+
+<div class="main-bottom-footer">
+    <x-footer/>
 </div>
 
 <!-- Bootstrap core JavaScript

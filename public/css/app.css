@@ -10050,3 +10050,22 @@ a.text-dark:hover, a.text-dark:focus {
     color: #fff;
     font-size: .75rem;
 }
+
+.navbar-brand {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.col-md-4 {
+    background-color: #e9ecef;
+}
+
+.col-md-4 a{
+    color: var(--orange);
+    text-decoration: none;
+}
+
+.col-md-4 a:hover{
+    color: var(--primary);
+    text-decoration: underline;
+}

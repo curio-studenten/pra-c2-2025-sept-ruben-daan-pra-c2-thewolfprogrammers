@@ -1,5 +1,15 @@
 
 <footer>
+  <section id="footer-content">
+    <h3>Over Ons</h3>
+  </section>
+  <section id="footer-content">
+    <h3>Contactgegevens</h3>
+  </section>
+  <section id="footer-content">
+    <h3>Sociaal</h3>
+  </section>
+
 	© {{ __('misc.copyright') }}
 </footer>
 

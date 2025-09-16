@@ -10079,3 +10079,11 @@ a.text-dark:hover, a.text-dark:focus {
     color: var(--primary);
     text-decoration: underline;
 }
+
+.ticket7{
+    border: 0;
+    background-color: transparent;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}

@@ -23,7 +23,7 @@
                 <a href="{{ $manual->url }}" target="new" alt="{{ $manual->name }}" title="{{ $manual->name }}">{{ $manual->name }}</a>
             @endif
 
-            <br />
+            <br /> {{-- Mag niet!!! Veranderen!! --}}
         @endforeach
 
 </x-layouts.app>

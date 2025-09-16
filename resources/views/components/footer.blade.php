@@ -2,15 +2,26 @@
 <footer>
   <section id="footer-content">
     <h3>Over Ons</h3>
+    <a href="youtube.com">Wat is 4S</a>
+    <a href="youtube.com">Wat doet 4S</a>
+    <a href="youtube.com"></a>
   </section>
   <section id="footer-content">
     <h3>Contactgegevens</h3>
+    <a href="jemoeder.com">jemoeder.com</a>
+    <a href="jemoeder.com">jemoeder.com</a>
+    <a href="jemoeder.com">jemoeder.com</a>
+    <a href="jemoeder.com">jemoeder.com</a>
   </section>
   <section id="footer-content">
     <h3>Sociaal</h3>
+    <a href="jemoeder.com">jemoeder.com</a>
+    <a href="jemoeder.com">jemoeder.com</a>
+    <a href="jemoeder.com">jemoeder.com</a>
+    <a href="jemoeder.com">jemoeder.com</a>
   </section>
 
-	© {{ __('misc.copyright') }}
+  <p>© {{ __('misc.copyright') }}</p>
 </footer>
 
 

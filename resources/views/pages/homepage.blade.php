@@ -34,9 +34,9 @@
 
                             if (!isset($header_first_letter) || (isset($header_first_letter) && $current_first_letter != $header_first_letter)) {
                                 echo '</ul>
-						<h2>' . $current_first_letter . '</h2>
-						<ul>';
-                            }
+                                <h2>' . $current_first_letter . '</h2>
+                                <ul>';
+                                }
                             $header_first_letter = $current_first_letter
                             ?>
 

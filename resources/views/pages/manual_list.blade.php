@@ -21,7 +21,9 @@
                 ({{$manual->filesize_human_readable}})
             @else
                 <button class="ticket7"><a href="{{ $manual->url }}" target="new" alt="{{ $manual->name }}" title="{{ $manual->name }}">{{ $manual->name }}</a></button>
-            @endif
+                <p>{{$manual->visits}}</p>
+
+                @endif
 
             <br /> {{-- Mag niet!!! Veranderen!! --}}
         @endforeach

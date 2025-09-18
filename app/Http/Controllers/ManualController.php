@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Brand;
 use App\Models\Manual;
+use Illuminate\Support\Facades\DB;
 
 class ManualController extends Controller
 {

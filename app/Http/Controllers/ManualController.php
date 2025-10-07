@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Brand;
 use App\Models\Manual;
-use Illuminate\Support\Facades\DB;
 
 class ManualController extends Controller
 {
@@ -13,6 +12,7 @@ class ManualController extends Controller
     {
         $brand = Brand::findOrFail($brand_id);
         $manual = Manual::findOrFail($manual_id);
+        $manual->increment('visits');
 
         return view('pages/manual_view', [
             "manual" => $manual,

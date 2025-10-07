@@ -9,6 +9,16 @@ class Manual extends Model
 {
     use HasFactory;
 
+    protected $fillable = [
+        'name',
+        'filesize',
+        'originUrl',
+        'filename',
+        'downloadedServer',
+        'visits',
+        'brand_id'
+    ];
+
     // Returns the filesize in a human readable format
     public function getFilesizeHumanReadableAttribute(){
 

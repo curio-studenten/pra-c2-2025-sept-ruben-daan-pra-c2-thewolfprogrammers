@@ -10055,11 +10055,11 @@ a.text-dark:hover, a.text-dark:focus {
     font-size: .75rem;
 }
 
-/* .col-md-4 {
+.col-md-4 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-} */
+}
 
 .navbar-brand {
     font-size: 27px;
@@ -10086,4 +10086,34 @@ a.text-dark:hover, a.text-dark:focus {
     text-align: left;
     padding: 0;
     margin: 0;
+}
+
+#ticket12 form {
+    margin-bottom: 15px;
+}
+
+#ticket12 label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#ticket12 input, textarea {
+    width: 50%;
+    padding: 9px;
+    box-sizing: border-box;
+}
+
+#ticket12 textarea {
+    resize: vertical;
+}
+
+#ticket12 #submit {
+    display: block;
+    margin-top: 10px;
+    width: auto;
+}
+
+#ticket12link {
+    position: relative;
+    left: 30%;
 }

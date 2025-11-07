@@ -68,3 +68,5 @@ Route::post('/contact/store', [ContactController::class, 'store']);
 Route::any('/debug-routes', function () {
     return \Illuminate\Support\Facades\Route::getRoutes();
 });
+
+Route::get('/{letter}/', [BrandController::class, 'index_letter'])->name('first_letter_brands');

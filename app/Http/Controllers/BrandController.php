@@ -9,6 +9,18 @@ use Illuminate\Support\Facades\DB;
 
 class BrandController extends Controller
 {
+    public function index_letter($letter)
+    {
+        $brands = Brand::where('name', 'like', $letter . '%')
+            ->orderBy('name')
+            ->get();
+
+        return view('pages/first_letter_brands', [
+            "brands" => $brands,
+            "letter" => $letter,
+        ]);
+    }
+
     public function show($brand_id, $brand_slug)
     {
 

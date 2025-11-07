@@ -33,6 +33,7 @@ use App\Http\Controllers\ManualController;
 use App\Http\Controllers\ProductCategoryController;
 use App\Http\Controllers\SitemapController;
 use App\Http\Controllers\LocaleController;
+use App\Http\Controllers\ContactController;
 
 // Homepage
 Route::get('/', function () {
@@ -56,3 +57,16 @@ Route::get('/{brand_id}/{brand_slug}/{manual_id}/', [ManualController::class, 's
 
 // Generate sitemaps
 Route::get('/generateSitemap/', [SitemapController::class, 'generate']);
+
+// Contact form
+Route::get('/contact/', function () {
+    return view('pages.contact');
+})->name('contact');
+
+Route::post('/contact/store', [ContactController::class, 'store']);
+
+Route::any('/debug-routes', function () {
+    return \Illuminate\Support\Facades\Route::getRoutes();
+});
+
+Route::get('/{letter}/', [BrandController::class, 'index_letter'])->name('first_letter_brands');

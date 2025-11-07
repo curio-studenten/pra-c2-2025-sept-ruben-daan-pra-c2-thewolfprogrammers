@@ -8,7 +8,10 @@
   </section>
   <section id="footer-content">
     <h3>Contactgegevens</h3>
-    <a href="mailto:D310325@edu.curio.nl">Email</a>
+    <a href="/contact">Contact</a>
+    <a href="/contact">Contact</a>
+    <a href="/contact">Contact</a>
+    <a href="/contact">Contact</a>
   </section>
   <section id="footer-content">
     <h3>Sociaal</h3>
@@ -22,7 +25,7 @@
 </footer>
 
 
-<!-- analytics code -->              
+<!-- analytics code -->
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -37,10 +40,10 @@
 </script>
 <!-- Einde analytics code -->
 
-<script language="Javascript" type="text/javascript"> 
- 
- if (top.location!= self.location) { 
+<script language="Javascript" type="text/javascript">
+
+ if (top.location!= self.location) {
   top.location = self.location.href
- } 
- 
+ }
+
 </script>

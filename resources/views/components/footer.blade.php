@@ -2,16 +2,12 @@
 <footer>
   <section id="footer-content">
     <h3>Over Ons</h3>
-    <a href="youtube.com">Wat is 4S</a>
-    <a href="youtube.com">Wat doet 4S</a>
-    <a href="youtube.com"></a>
+    <p>Neem contact op met 4s als je handleidingen nodig hebt.</p>
   </section>
   <section id="footer-content">
     <h3>Contactgegevens</h3>
     <a href="/contact">Contact</a>
-    <a href="/contact">Contact</a>
-    <a href="/contact">Contact</a>
-    <a href="/contact">Contact</a>
+    <a href="mailto:info@4s.com">info@4s.com</a>
   </section>
   <section id="footer-content">
     <h3>Sociaal</h3>

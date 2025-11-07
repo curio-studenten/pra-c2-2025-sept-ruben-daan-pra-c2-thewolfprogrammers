@@ -8,17 +8,14 @@
   </section>
   <section id="footer-content">
     <h3>Contactgegevens</h3>
-    <a href="jemoeder.com">jemoeder.com</a>
-    <a href="jemoeder.com">jemoeder.com</a>
-    <a href="jemoeder.com">jemoeder.com</a>
-    <a href="jemoeder.com">jemoeder.com</a>
+    <a href="mailto:D310325@edu.curio.nl">Email</a>
   </section>
   <section id="footer-content">
     <h3>Sociaal</h3>
-    <a href="jemoeder.com">jemoeder.com</a>
-    <a href="jemoeder.com">jemoeder.com</a>
-    <a href="jemoeder.com">jemoeder.com</a>
-    <a href="jemoeder.com">jemoeder.com</a>
+    <a href="instagram.com">Instagram</a>
+    <a href="facebook.com">Facebook</a>
+    <a href="youtube.com">Youtube</a>
+    <a href="twitch.com">Twitch</a>
   </section>
 
   <p>© {{ __('misc.copyright') }}</p>
